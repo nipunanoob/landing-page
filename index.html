@@ -3,55 +3,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Landing page!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
-        <div class="logo">Image</div>
-        <ul>
-            <li><a href="https://example.com">Website</a></li>
-            <li><a href="https://example.com">Website</a></li>
-            <li><a href="https://example.com">Website</a></li>
-        </ul>
-    </div>
-    <div class="top-content">
-        <div class="sign-up">
-            <h1>This website is awesome</h1>
-            <div>Content</div>
-            <button>Sign up</button>
+        <div class="nav-bar">
+            <div class="logo">Demo site</div>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">one</a></li>
+                <li><a href="https://www.youtube.com/watch?v=RmHAJrctiAU">two</a></li>
+                <li><a href="https://www.youtube.com/watch?v=_0HTwQjMr9k">three</a></li>
+            </ul>
         </div>
-        <img src="happy1.jpeg">
+        <div class="signup-div">
+            <div class="signup">
+                <div class="hero">This website is awesome</div>
+                <div>This website has some subtext that goes under here under the main title. It's a smaller font and the color is lower contrast</div>
+                <button>Sign up</button>
+            </div>
+            <img class="flex" src="happy1.jpeg">
+        </div>
     </div>
-    <div class="mid-content">
-        <h1> Some random information </h1>
-        <div class="container">
+    <div class="random">
+        <h1 class="center">Some random information.</h1>
+        <div class="container center">
             <div class ="card">
-                <img src="happy1.jpeg">
-                <div class="description">text</div>
+                <img class="small" src="happy2.jpeg">
+                <div class="description">this is some text to check if it wraps</div>
             </div>
 
             <div class ="card">
-                <img src="happy1.jpeg">
-                <div class="description">text</div>
+                <img class="small" src="devious.jpeg">
+                <div class="description">this is another text lol</div>
             </div>
             
             <div class ="card">
-                <img src="happy1.jpeg">
-                <div class="description">text</div>
+                <img class="small" src="lament.jpeg">
+                <div class="description">hi!</div>
             </div>
 
             <div class ="card">
-                <img src="happy1.jpeg">
-                <div class="description">text</div>
+                <img class="small" src="pengwing.jpeg">
+                <div class="description">that guy from narnia</div>
             </div>
         </div>
     </div>
-    <div class="bot-content">
-        <div class="quote">Quote</div>
-        <div class="sayer">Thor</div>
+    <div class="quote">
+        <div class="quote-text flex">That's one small step for a man, a giant leap for mankind.</div>
+        <div class="quotee flex">- Neil Armstrong</div>
+    </div>
+    <div class="action">
+        <div class="action-text">
+            <div class="action-header">Call to action! It's time!</div>
+            <div> Sign up to our product by clicking that buttion right over there!</div>
+        </div>
+        <button class="button" id ="white-border">Sign up</button>
     </div>
     <div class="footer">
-        <div class="footer-signup"></div>
+        <div>Copyright © The Odin Project 2021</div>
     </div>
 
 </body>
